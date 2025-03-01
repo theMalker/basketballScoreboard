@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>SCOREBOARD</h1>
+            <div class="table">
+                <div>
+                    <h3>HOME</h3>
+                    <div class="score">
+                        <div class="score-tbl">
+                            <span id="home" class="score-nbr">0</span>
+                        </div>
+                        <div class="score-btn">
+                            <button class="score-btns" onclick="incement1()">+1</button>
+                            <button class="score-btns" onclick="incement2()">+2</button>
+                            <button class="score-btns" onclick="incement3()">+3</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>GUEST</h3>
+                    <div class="score">
+                        <div class="score-tbl">
+                            <span id="guest" class="score-nbr">0</span>
+                        </div>
+                        <div class="score-btn">
+                            <button class="score-btns" onclick="incement4()">+1</button>
+                            <button class="score-btns" onclick="incement5()">+2</button>
+                            <button class="score-btns" onclick="incement6()">+3</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="controls" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
